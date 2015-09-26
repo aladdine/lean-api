@@ -50,12 +50,24 @@
           <a class="navbar-brand" href="#">Lean API</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
-          <form class="navbar-form navbar-right" role="form">
-            <div class="form-group">
-              <input type="text" placeholder="Search API" class="form-control">
-            </div>
-            <button type="submit" class="btn btn-success">Go</button>
-          </form>
+      
+          <ul class="nav navbar-nav navbar-right">
+              <li>
+                <form class="navbar-form" role="form">
+                  <div class="input-group">
+                    <input type="text" class="form-control" placeholder="APIs">
+                    <span class="input-group-btn">
+                      <button class="btn btn-default" type="button">Go!</button>
+                    </span>
+                  </div><!-- /input-group -->
+                </form>
+              </li>
+              <li><a href="#">Login/Signup</a></li>
+
+          </ul>
+        </li>
+      </ul>
+
         </div><!--/.navbar-collapse -->
       </div>
     </nav>
@@ -74,7 +86,15 @@
             <p>Get user feedback on your API as you build it.</p>
             <p><a class="btn btn-primary btn-lg" href="#" role="button">Details &raquo;</a></p>
           </div>
-        </div>
+        </div> <!--/.row -->
+
+        <div class="row browse">
+          <div class="col-md-10 col-md-push-1 hp-message">
+            <h2>Browse APIs</h2>
+            <p>Find well tested and top rated APIs</p>
+          </div>
+        </div> <!--/.row -->
+
       </div>
     </div>
 

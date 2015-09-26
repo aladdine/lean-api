@@ -1,2 +1,2 @@
 # leanapi
-A user testing platform for APIs and SDKs
+A platform for user testing and rating APIs and SDKs

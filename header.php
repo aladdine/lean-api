@@ -29,6 +29,11 @@
                height: 400px;
             }
 
+            .hp-horizontal-line {
+               border-top: 2px #269B8F solid;
+               width: 400px;
+            }
+
             .hp-header-message {
               height: 500px;
               background-color: #FFF;

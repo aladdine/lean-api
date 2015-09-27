@@ -43,12 +43,12 @@
         <div class="col-md-4 col-md-push-1 hp-horizontal-line"> </div>
         <div class="col-md-4 col-md-push-3 hp-horizontal-line"> </div>
     </row>
-    <div class="jumbotron hp-header-message">
+       <div class="jumbotron hp-header-message">
       <div class="container">
         <div class="row">
           <div class="col-md-4 col-md-push-1 hp-message">
             <div class="hp-icon">
-               <img src="images/1BecomeTester.png">
+               <img src="images/3BrowseAPI.png">
             </div>
             <div>   
                <img id="tester-btn" src="images/buttons-02.png">
@@ -66,7 +66,7 @@
           </div>
           <div class="col-md-4 col-md-push-2 hp-message">
             <div class="hp-icon">
-               <img src="images/2GetAPItested.png">
+               <img src="images/3CreateAPI.png">
             </div>
              <div>   
                <img id="api-provider-btn" src="images/buttons-03.png">

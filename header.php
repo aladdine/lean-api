@@ -86,6 +86,11 @@
               margin-top: 40px;
             }
 
+            #tester-next-step1-btn {
+              margin-top: 20px;
+              float: right;
+            }
+
         </style>
        
         <link rel="stylesheet" href="css/bootstrap-theme.min.css">

@@ -112,6 +112,23 @@
               text-align: center;
             }
 
+            .feedback {
+              position: absolute;
+              display: block;
+              left: 275px;
+              top: 1870px;
+
+            }
+
+            textarea {
+                border: none;
+                width: 930px;
+                height: 200px;
+                -webkit-box-sizing: border-box; /* <=iOS4, <= Android  2.3 */
+                   -moz-box-sizing: border-box; /* FF1+ */
+                        box-sizing: border-box; /* Chrome, IE8, Opera, Safari 5.1*/
+            }
+
         </style>
        
         <link rel="stylesheet" href="css/bootstrap-theme.min.css">

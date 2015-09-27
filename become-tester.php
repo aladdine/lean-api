@@ -57,7 +57,7 @@
 				<div class="row">
 
 			        <div class="col-md-2">
-					     <label> Choose Languages (s) </label>
+					     <label> Choose Languages </label>
 					</div><!-- /.col-lg-3 -->
 					<div class="col-md-2">
 					    <div class="input-group">   
@@ -110,11 +110,46 @@
 					 
 				</div>  <!-- /.row -->
 
-		        <button type="submit" class="btn btn-default">Submit</button>
+				
 	      	</form>
 			
  
 	</div>
 </div>
+
+<div class="row">
+	<div class="col-md-2 col-md-push-10">
+		<img id="tester-next-step1-btn" src="images/button_next_hover.png">
+	</div>
+</div>				
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        
+
+         <script type="text/javascript">
+       
+ 
+            
+
+              $("#tester-next-step1-btn").mouseover( function() {
+                $("#tester-next-step1-btn").attr("src", "images/button_next.png");
+             });
+
+              $("#tester-next-step1-btn").mouseleave( function() {
+                $("#tester-next-step1-btn").attr("src", "images/button_next_hover.png");
+             });
+
+              $("#tester-next-step1-btn").click( function() {
+                $("#become-tester-steps").attr("src", "images/step-02.png");
+                $("#tester-next-step1-btn").attr("id", "tester-next-step2-btn");
+                $("form").slideUp();
+                $("h2").append("<h3>Please sign NDA</h3>");
+
+             }); 
+
+              $("#tester-next-step2-btn").click( function() {
+                $("#become-tester-steps").attr("src", "images/step-03.png");
+             }); 
+        </script>      
 
 <? include $_SERVER['DOCUMENT_ROOT'].'/footer.php'; ?>

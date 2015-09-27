@@ -70,6 +70,7 @@
               width: 100%;
               margin-top: 50px;
               padding: 20px;
+              height: 400px;
             }
 
             /* styling inputs */
@@ -93,7 +94,17 @@
 
             #nda {
               display: none;
-              overflow:scroll;
+            }
+
+            #nda-text {
+              overflow: scroll;
+              height: 200px;
+            }
+
+            #become-tester-confirmation {
+              margin-top: 40px;
+              display: none;
+              text-align: center;
             }
 
         </style>

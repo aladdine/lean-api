@@ -79,6 +79,8 @@
                $(location).attr('href', 'browse-apis.php');
              });
 
+              
+
              $("#tester-btn").mouseover( function() {
                 $("#tester-btn").attr("src", "images/buttons_hover-02.png");
              });

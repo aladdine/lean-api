@@ -26,7 +26,7 @@
                <img src="images/2GetAPItested.png">
             </div>
              <div>   
-               <img id="api-provider-btn" src="images/buttons-03.png">
+               <img id="api-provider-btn" src="images/buttons-05.png">
             </div> 
             <div class="hp-steps">
               <ol>
@@ -51,13 +51,12 @@
                <img src="images/3BrowseAPI.png">
             </div>
             <div>   
-               <img id="tester-btn" src="images/buttons-02.png">
+               <img id="browse-api-btn" src="images/buttons-03.png">
             </div> 
             <div class="hp-steps">
               <ol>
-                <li> Select API </li>
-                <li> Test and Give Feedback</li>
-                <li> Get Paid</li>
+                <li> Well Tested APIs </li>
+                <li> Use It Or Give Feedback</li>
               </ol>           
             </div>  
           </div>
@@ -69,13 +68,13 @@
                <img src="images/3CreateAPI.png">
             </div>
              <div>   
-               <img id="api-provider-btn" src="images/buttons-03.png">
+               <img id="create-api-btn" src="images/buttons-04.png">
             </div> 
             <div class="hp-steps">
               <ol>
-                <li> Upload Your API Info </li>
-                <li> Receive Feedback</li>
-                <li> Improve Your API</li>
+                <li> Create Powerful APIs </li>
+                <li> Get Them Tested</li>
+                <li> Receive Feedback &amp; Rating</li>
               </ol>           
             </div>     
           </div>
@@ -83,13 +82,7 @@
       </div>
     </div> <!--.jumbotron -->
 
-    <div class="row browse">
-          <div class="col-md-10 col-md-push-1 hp-message">
-             <div class="hp-browse-apis-row">   
-               <img id="search-btn" src="images/buttons-01.png"> <span class="hp-browse-apis">Find well tested top rated APIs</span>
-            </div> 
-          </div>
-    </div> <!--/.row -->
+   
  
     
 
@@ -110,15 +103,15 @@
  
             
 
-              $("#search-btn").mouseover( function() {
-                $("#search-btn").attr("src", "images/buttons_hover-01.png");
+              $("#browse-api-btn").mouseover( function() {
+                $("#browse-api-btn").attr("src", "images/buttons-03_hover.png");
              });
 
-              $("#search-btn").mouseleave( function() {
-                $("#search-btn").attr("src", "images/buttons-01.png");
+              $("#browse-api-btn").mouseleave( function() {
+                $("#browse-api-btn").attr("src", "images/buttons-03.png");
              }); 
 
-              $("#search-btn").click( function() {
+              $("#browse-api-btn").click( function() {
                $(location).attr('href', 'browse-apis.php');
              });
 
@@ -137,15 +130,28 @@
              });
 
             $("#api-provider-btn").mouseover( function() {
-                $("#api-provider-btn").attr("src", "images/buttons_hover-03.png");
+                $("#api-provider-btn").attr("src", "images/buttons_hover-05.png");
              });
 
               $("#api-provider-btn").mouseleave( function() {
-                $("#api-provider-btn").attr("src", "images/buttons-03.png");
+                $("#api-provider-btn").attr("src", "images/buttons-05.png");
              });  
 
               $("#api-provider-btn").click( function() {
                $(location).attr('href', 'add-api.php');
+             });
+
+
+              $("#create-api-btn").mouseover( function() {
+                $("#create-api-btn").attr("src", "images/buttons-04_hover.png");
+             });
+
+              $("#create-api-btn").mouseleave( function() {
+                $("#create-api-btn").attr("src", "images/buttons-04.png");
+             });  
+
+              $("#create-api-btn").click( function() {
+               $(location).attr('href', 'create-api.php');
              });
 
         </script>

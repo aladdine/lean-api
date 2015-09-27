@@ -91,6 +91,11 @@
               float: right;
             }
 
+            #nda {
+              display: none;
+              overflow:scroll;
+            }
+
         </style>
        
         <link rel="stylesheet" href="css/bootstrap-theme.min.css">

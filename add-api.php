@@ -75,6 +75,26 @@
 
 		        </div>
 
+		        <div class="row">
+
+		        <div class="form-group col-md-2">
+			          <label for="tester-password"> Add Testing Tasks:</label>
+			    </div>
+
+			    <div class="form-group col-md-3">
+			          <input type="text" placeholder="Eg. Test all end points">
+			    </div>
+
+			    <div class="form-group col-md-3">
+			          <input type="text" placeholder="Eg. Test all end points">
+			    </div>
+
+			    <div class="form-group col-md-3">
+			          <input type="text" placeholder="Eg. Test all end points">
+			    </div>
+
+		        </div>
+
 
 		        <div class="row">
 
@@ -171,7 +191,8 @@ This Agreement and each party's obligations shall be binding on the representati
 	      	</div> <!-- /#NDA -->
 
 	      	<div id="become-tester-confirmation">
-	      		<h2>Congratulations, your API is added. We will send you an email when testers opt for your API. </h2>
+	      		<h2>Congratulations, your API is added. We will send you an email when testers opt for it. 
+	      		Meanwhile, you can reate a new one. </h2>
 	      		  <div>   
                <img id="create-api-btn" src="images/buttons-04.png">
             </div> 

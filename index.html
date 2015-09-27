@@ -55,6 +55,10 @@
             .hp-browse-apis-row {
               margin-bottom: 40px;
             }
+
+            #api-provider-btn, #tester-btn, #search-btn {
+              cursor: pointer;
+            }
         </style>
        
         <link rel="stylesheet" href="css/bootstrap-theme.min.css">
@@ -124,10 +128,10 @@
           </div>
           <div class="col-md-4 col-md-push-2 hp-message">
             <div class="hp-icon">
-               <img id="api-provider-btn" src="images/2GetAPItested.png">
+               <img src="images/2GetAPItested.png">
             </div>
              <div>   
-               <img src="images/buttons-03.png">
+               <img id="api-provider-btn" src="images/buttons-03.png">
             </div> 
             <div class="hp-steps">
               <ol>
@@ -168,9 +172,34 @@
 
          <script type="text/javascript">
        
-             $("#search-btn").hover( function() {
-                $("#search-btn").attr("src", "gxhvxa");
+ 
+            
+
+              $("#search-btn").mouseover( function() {
+                $("#search-btn").attr("src", "images/buttons_hover-01.png");
              });
+
+              $("#search-btn").mouseleave( function() {
+                $("#search-btn").attr("src", "images/buttons-01.png");
+             }); 
+
+             $("#tester-btn").mouseover( function() {
+                $("#tester-btn").attr("src", "images/buttons_hover-02.png");
+             });
+
+              $("#tester-btn").mouseleave( function() {
+                $("#tester-btn").attr("src", "images/buttons-02.png");
+             });  
+
+            $("#api-provider-btn").mouseover( function() {
+                $("#api-provider-btn").attr("src", "images/buttons_hover-03.png");
+             });
+
+              $("#api-provider-btn").mouseleave( function() {
+                $("#api-provider-btn").attr("src", "images/buttons-03.png");
+             });  
+
+            
 
 
 

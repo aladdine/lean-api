@@ -75,6 +75,10 @@
                 $("#search-btn").attr("src", "images/buttons-01.png");
              }); 
 
+              $("#search-btn").click( function() {
+               $(location).attr('href', 'browse-apis.php');
+             });
+
              $("#tester-btn").mouseover( function() {
                 $("#tester-btn").attr("src", "images/buttons_hover-02.png");
              });
@@ -83,11 +87,9 @@
                 $("#tester-btn").attr("src", "images/buttons-02.png");
              });
 
-               $("#tester-btn").click( function() {
+              $("#tester-btn").click( function() {
                $(location).attr('href', 'become-tester.php');
              });
-
-
 
             $("#api-provider-btn").mouseover( function() {
                 $("#api-provider-btn").attr("src", "images/buttons_hover-03.png");
@@ -97,15 +99,10 @@
                 $("#api-provider-btn").attr("src", "images/buttons-03.png");
              });  
 
-              $("#tester-btn").click( function() {
+              $("#api-provider-btn").click( function() {
                $(location).attr('href', 'add-api.php');
              });
 
-            
-
-
-
-      
         </script>
 
     </body>

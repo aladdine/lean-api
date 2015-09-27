@@ -59,6 +59,33 @@
             #api-provider-btn, #tester-btn, #search-btn {
               cursor: pointer;
             }
+
+            #become-tester-steps {
+              margin: auto;
+              margin-top: 50px;
+            }
+
+            #form-become-a-tester {
+              border: 2px #269B8F solid;
+              width: 100%;
+              margin-top: 50px;
+              padding: 20px;
+            }
+
+            /* styling inputs */
+
+            input[type=checkbox] {
+              margin-right: 10px;
+            }
+
+            .input-group, .form-group {
+              margin-bottom: 20px;
+            }
+            
+            form {
+              margin-top: 40px;
+            }
+
         </style>
        
         <link rel="stylesheet" href="css/bootstrap-theme.min.css">

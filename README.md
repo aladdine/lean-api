@@ -1,5 +1,5 @@
 # Lean Api
-A platform for user testing and rating APIs and SDKs
+A platform for user testing and rating APIs and SDKs. Think Yelp for APIs and SDKs.
 
 # Features
 - Allow API providers to get user feedback on their API by developers.

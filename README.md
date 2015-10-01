@@ -8,6 +8,6 @@ A platform for user testing and rating APIs and SDKs
 - Sentiment analysis APIs are used to convert textual user feedback to quantitative data.
  
 # Built with
-- *Frontend:* HTML5 Boilerplate with Twitter Bootstrap and jQuery.
-- *Backend:* Firebase.
-- *APIs:* HP Idol OnDemand Sentiment Analysis API.
+- *Frontend: HTML5 Boilerplate with Twitter Bootstrap and jQuery.
+- *Backend: Firebase.
+- *APIs: HP Idol OnDemand Sentiment Analysis API.
